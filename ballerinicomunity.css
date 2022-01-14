@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300&family=Cookie&family=Lobster&family=Lobster+Two&family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #f7c9bb;
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background: linear-gradient(#DA06A4 35%, #F56D5C);
+    box-shadow: 0px 5px 5px #E03400;
+}
+
+.imgcabecalho {
+    height: 72px;
+}
+
+.linkscabecalho {
+    display: flex;
+    position: relative;
+    right: -64px;
+    margin-left: 10px;
+}
+
+.linkc1, .linkc2, .linkc3, .linkc4 {
+    margin: 25px;
+    color: #FFF2E7;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+}
+
+.linkc1:hover, .linkc2:hover, .linkc3:hover, .linkc4:hover {
+    text-decoration: underline #E03400 solid 2px;
+}
+
+#sec1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 24px 24px 24px;
+    
+}
+
+.mainpart1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+}
+
+.texto1part1 {
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+    font-size: 84px;
+    margin-left: 240px;
+}
+
+.texto2part1 {
+    font-size: 23px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 200;
+}
+
+.buttonpart1 {
+    font-size: 35px;
+    font-family: 'Cookie', cursive;
+    font-weight: 500;
+    padding: 15px 80px;
+    border: none;
+    background: linear-gradient(#DA06A4 40%, #F56D5C);
+    box-shadow: 4px 3px 4px#fca499f5;
+    color: #FFF2E7;
+    border-radius: 50px;
+    position: relative;
+    top: 35px;
+    left: 147.5px;
+}
+
+.buttonpart1:hover {
+    padding: 20px 85px;
+}
+
+#sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-around;
+    padding-left: 120px;
+    padding-top: 60px;
+    
+}
+
+.sec2border {
+    padding: 10px 250px 10px 20px;
+    border: 5px outset #fca499f5;
+}
+
+.vantagens {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.texto1part2 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 200;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.texto2part2, .texto3part2, .texto4part2 {
+    font-size: 21px;
+    font-family: 'Lobster Two', cursive;
+    padding-bottom: 15px;
+}
+
+footer {
+    margin-top: 50px;
+    background: linear-gradient(#5512d3de 10%, #da06a5d3);
+    box-shadow: 0px 5px 5px #E03400;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.footerimg {
+    width: 230px;
+}
+
+
+
